@@ -1,18 +1,17 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
-const Assignmentone = () => {
+const SPLClassTest1 = () => {
 
-    const navigate=useNavigate();
+ const navigate=useNavigate();
      
 
     const handleTask=()=>{
-        navigate("/assignment1-task1")
+        navigate("/splclass1-task1")
     }
 
 
-
   return (
-    <>
+       <>
 
         <button className="bg-blue-600 text-white px-6 py-2 rounded-xl m-5"
         onClick={handleTask}
@@ -20,9 +19,7 @@ const Assignmentone = () => {
         </button>
 
     </>
-   
-
   )
 }
 
-export default Assignmentone
+export default SPLClassTest1

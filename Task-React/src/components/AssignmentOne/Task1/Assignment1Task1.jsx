@@ -3,7 +3,7 @@ import BanTask1 from "./BanTask1"
 import Footer from "./Footer"
 import Nav from "./Nav"
 
-const Task1 = () => {
+const Assignment1Task1 = () => {
   return (
     <>
     <Nav/>
@@ -14,4 +14,4 @@ const Task1 = () => {
   )
 }
 
-export default Task1
+export default Assignment1Task1

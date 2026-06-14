@@ -1,6 +1,7 @@
 import AssignmentCard from "./AssignmentCard";
 import Assignmentone from "./AssignmentOne/Assignmentone";
 import AssignmentTwo from "./AssignmentTwo/AssignmentTwo";
+import SPLClassTest1 from "./SPL_Class_Test1/Task1/SPLClassTest1";
 
 const Tasks = () => {
   return (
@@ -14,6 +15,9 @@ const Tasks = () => {
         </AssignmentCard>
         <AssignmentCard title="Assignment 2">
           <AssignmentTwo />
+        </AssignmentCard>
+         <AssignmentCard title="SPL Class-Test">
+          <SPLClassTest1 />
         </AssignmentCard>
       
       </div>
