@@ -14,12 +14,12 @@ const studentDetails={
   return (
     <>
 
-
     <StudentProfile  
     name={studentDetails.name}
     age={studentDetails.Age}
     course={studentDetails.Course}
     city={studentDetails.City} />
+
     </>
   )
 }
