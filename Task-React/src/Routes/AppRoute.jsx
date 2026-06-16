@@ -2,9 +2,15 @@ import {Routes,Route} from 'react-router-dom'
 import Home from '../pages/Home'
 import Navbar from '../components/Navbar'
 import Tasks from '../components/Tasks'
-import Assignment1Task1 from '../components/AssignmentOne/Task1/Assignment1Task1'
-import Assignment2Task1 from '../components/AssignmentTwo/Assignment2Task1'
+
 import SPLClassTask1 from '../components/SPL_Class_Test1/SPLClassTask1'
+import Assignment2Task1 from '../components/AssignmentTwo/Task1/Assignment2Task1'
+
+import EmployeeDetails from '../components/AssignmentOne/Tasks/Task1/EmployeeDetails'
+import MovieDetails from '../components/AssignmentOne/Tasks/Task1/MovieDetails'
+import ProductCard from '../components/AssignmentOne/Tasks/Task1/ProductCard'
+import StudentDetails from '../components/AssignmentOne/Tasks/Task1/StudentDetails'
+import CompanyInfo from '../components/AssignmentOne/Tasks/Task1/CompanyInfo'
 
 
 const AppRoute = () => {
@@ -17,7 +23,12 @@ const AppRoute = () => {
     <Routes>
     <Route path='/' element={<Home/>} />
     <Route path='/tasks' element={<Tasks/>} />
-    <Route path='/assignment1-task1' element={<Assignment1Task1/>}/>
+    <Route path='/studentdetails' element={<StudentDetails/>}/>
+    <Route path='/employeedetails' element={<EmployeeDetails/>}/>
+    <Route path='/productdetails' element={<ProductCard/>}/>
+    <Route path='/moviedetails' element={<MovieDetails/>}/>
+      <Route path='/companydetails' element={<CompanyInfo/>}/>
+
     <Route path='/assignment2-task1' element={<Assignment2Task1/>}/>
     <Route path='/splclass1-task1' element={<SPLClassTask1/>}/>
   

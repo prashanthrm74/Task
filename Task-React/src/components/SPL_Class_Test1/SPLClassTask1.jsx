@@ -1,24 +1,20 @@
+import EmployeeCard from "./Task1/EmployeeCard"
 import StudentProfile from "./Task1/StudentProfile"
 
 const SPLClassTask1 = () => {
 
-const studentDetails={
 
-    name:"Prashanth",
-    Age:25,
-    Course:"React",
-    City:"Chennai"
-
-}
 
   return (
     <>
+    <div className="flex bg-amber-200" >
 
-    <StudentProfile  
-    name={studentDetails.name}
-    age={studentDetails.Age}
-    course={studentDetails.Course}
-    city={studentDetails.City} />
+    <StudentProfile/>
+    <EmployeeCard/>
+      
+    </div>
+
+  
 
     </>
   )

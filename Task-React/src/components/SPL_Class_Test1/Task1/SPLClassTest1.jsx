@@ -15,7 +15,7 @@ const SPLClassTest1 = () => {
 
         <button className="bg-blue-600 text-white px-6 py-2 rounded-xl m-5"
         onClick={handleTask}
-        >Task1
+        >Task
         </button>
 
     </>
