@@ -1,6 +1,6 @@
 import AssignmentCard from "./AssignmentCard";
 import Assignmentone from "./AssignmentOne/Assignmentone";
-import AssignmentThree from "./AssignmentThree/Assignmentthree";
+import AssignmentThree from "./AssignmentThree/AssignmentThree";
 
 import AssignmentTwo from "./AssignmentTwo/AssignmentTwo";
 import SPLClassTest1 from "./SPL_Class_Test1/Task1/SPLClassTest1";
