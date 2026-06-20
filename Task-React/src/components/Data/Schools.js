@@ -6,6 +6,7 @@ export const schools = [
     principal: "Ramesh",
     students: 2500,
     teachers: 120,
+    courses: ["LKG", "UKG", "Primary", "High School"]
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const schools = [
     principal: "Suresh",
     students: 1800,
     teachers: 90,
+    courses: ["LKG", "UKG", "Primary", "High School"]
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const schools = [
     principal: "Lakshmi",
     students: 2200,
     teachers: 110,
+    courses: ["LKG", "UKG", "Primary", "High School"]
   },
     {
     id: 4,
@@ -30,5 +33,6 @@ export const schools = [
     principal: "Saraswathi",
     students: 3400,
     teachers: 180,
+    courses: ["LKG", "UKG", "Primary", "High School"]
   }
 ];
