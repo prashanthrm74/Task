@@ -12,6 +12,9 @@ import ProductCard from '../components/AssignmentOne/Tasks/Task1/ProductCard'
 import StudentDetails from '../components/AssignmentOne/Tasks/Task1/StudentDetails'
 import CompanyInfo from '../components/AssignmentOne/Tasks/Task1/CompanyInfo'
 import SchoolList from '../components/AssignmentThree/SchoolList'
+import Count from '../components/AssignmentFive/Tasks/Count'
+import StudentNameUpdate from '../components/AssignmentFive/Tasks/StudentNameUpdate'
+import Age from '../components/AssignmentFive/Tasks/Age'
 
 
 const AppRoute = () => {
@@ -33,7 +36,12 @@ const AppRoute = () => {
     <Route path='/assignment2-task1' element={<Assignment2Task1/>}/>
     <Route path='/splclass1-task1' element={<SPLClassTask1/>}/>
     <Route path='/schoollist' element={<SchoolList/>}/>
+     <Route path='/counter' element={<Count/>}/>
+     <Route path='/studentnameupdate' element={<StudentNameUpdate/>}/>
+     <Route path='/age' element={<Age/>}/>
   
+  
+
     </Routes>
     </div>
 
