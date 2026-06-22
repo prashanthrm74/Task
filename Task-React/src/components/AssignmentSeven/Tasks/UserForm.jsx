@@ -25,7 +25,7 @@ const UserForm = () => {
   return (
     <>
     <div className="bg-white w-100 m-10 rounded-xl">
-      <h1 className="text-center font-bold">User Registration Form</h1>
+      <h1 className="text-center mt-4 font-bold">User Registration Form</h1>
 
       <form onSubmit={handleSubmit} className="m-4" >
         <div>
@@ -94,7 +94,7 @@ const UserForm = () => {
 
         <br />
 
-        <button type="submit">Submit</button>
+        <button className="bg-blue-600 w-25 p-1 rounded-xl text-center mb-5" type="submit">Submit</button>
       </form>
 
       {submittedData && (
