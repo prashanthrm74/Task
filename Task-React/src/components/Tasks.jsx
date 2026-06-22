@@ -1,6 +1,9 @@
 import AssignmentCard from "./AssignmentCard";
 import AssignmentFive from "./AssignmentFive/AssignmentFive";
+import AssignmentFour from "./AssignmentFour/AssignmentFour";
 import Assignmentone from "./AssignmentOne/Assignmentone";
+import AssignmentSeven from "./AssignmentSeven/AssignmentSeven";
+import AssignmentSix from "./AssignmentSix/AssignmentSix";
 import AssignmentThree from "./AssignmentThree/AssignmentThree";
 
 import AssignmentTwo from "./AssignmentTwo/AssignmentTwo";
@@ -25,8 +28,17 @@ const Tasks = () => {
         <AssignmentCard title="Assignment 3">
           <AssignmentThree/>
         </AssignmentCard>
+        <AssignmentCard title="Assignment 4">
+          <AssignmentFour/>
+        </AssignmentCard>
         <AssignmentCard title="Assignment 5">
           <AssignmentFive/>
+        </AssignmentCard>
+        <AssignmentCard title="Assignment 6">
+          <AssignmentSix/>
+        </AssignmentCard>
+         <AssignmentCard title="Assignment 7">
+          <AssignmentSeven/>
         </AssignmentCard>
       </div>
     </>

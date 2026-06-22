@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom"
 
-const AssignmentFive = () => {
+const AssignmentSix = () => {
 
     const navigate=useNavigate();
      
 
     const handleTask=()=>{
-        navigate("/counter")
+        navigate("/object-state")
     }
     const handleTask1=()=>{
         navigate("/studentnameupdate")
@@ -49,4 +49,4 @@ const AssignmentFive = () => {
   )
 }
 
-export default AssignmentFive
+export default AssignmentSix
