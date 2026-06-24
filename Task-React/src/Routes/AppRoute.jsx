@@ -19,6 +19,7 @@ import Theme from '../components/AssignmentFive/Tasks/Theme'
 import ClassComponent from '../components/AssignmentFour/ClassComponent'
 import ObjectState from '../components/AssignmentSix/Tasks/ObjectState'
 import UserForm from '../components/AssignmentSeven/Tasks/UserForm'
+import RegisterDetails from '../components/AssignmentNine/RegisterDetails'
 
 
 const AppRoute = () => {
@@ -47,7 +48,8 @@ const AppRoute = () => {
      <Route path='/theme' element={<Theme/>}/>
       <Route path='/object-state' element={<ObjectState/>}/>
       <Route path='/userform' element={<UserForm/>}/>
-    
+      <Route path='/userdata' element={<RegisterDetails/>}/>
+
   
 
     </Routes>
