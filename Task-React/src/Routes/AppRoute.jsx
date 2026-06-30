@@ -21,6 +21,7 @@ import ObjectState from '../components/AssignmentSix/Tasks/ObjectState'
 import UserForm from '../components/AssignmentSeven/Tasks/UserForm'
 import RegisterDetails from '../components/AssignmentNine/RegisterDetails'
 import Studentdata from '../components/AssignmentTen/Tasks/Studentdata'
+import ProductData from '../components/AssignmentTen/Tasks/ProductData'
 
 
 const AppRoute = () => {
@@ -51,6 +52,7 @@ const AppRoute = () => {
       <Route path='/userform' element={<UserForm/>}/>
       <Route path='/userdata' element={<RegisterDetails/>}/>
        <Route path='/studentdata' element={<Studentdata/>}/>
+      <Route path='/productdata' element={<ProductData/>}/>
 
   
 
