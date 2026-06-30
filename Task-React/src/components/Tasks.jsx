@@ -6,6 +6,7 @@ import AssignmentNine from "./AssignmentNine/AssignmenNine";
 import Assignmentone from "./AssignmentOne/Assignmentone";
 import AssignmentSeven from "./AssignmentSeven/AssignmentSeven";
 import AssignmentSix from "./AssignmentSix/AssignmentSix";
+import AssignmentTen from "./AssignmentTen/AssignmentTen";
 import AssignmentThree from "./AssignmentThree/AssignmentThree";
 
 import AssignmentTwo from "./AssignmentTwo/AssignmentTwo";
@@ -47,6 +48,9 @@ const Tasks = () => {
         </AssignmentCard>
           <AssignmentCard title="Assignment 9">
           <AssignmentNine/>
+        </AssignmentCard>
+        <AssignmentCard title="Assignment 10">
+          <AssignmentTen/>
         </AssignmentCard>
       </div>
     </>
