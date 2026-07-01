@@ -17,13 +17,14 @@ const ProductData = () => {
 
          const { name, value } = e.target;
 
-    setProducts((prev) => ({...prev,[name]: value,}));
+    setProducts((prev) => ({...prev,[name]: value}));
     }
 
     const handleSubmit=(e)=>{
         e.preventDefault()
 
         setSubmittedData(products)
+
         console.log(submittedData);
         
         setProducts({
@@ -40,10 +41,10 @@ const ProductData = () => {
 <div className="h-screen bg-linear-to-r from-amber-100 via-orange-100 to-yellow-100 w-full">
 
  <h1 className="text-indigo-500 font-bold text-3xl text-center p-6 ">Product Management Form</h1> 
- <div className="w-full max-w-4xl grid md:grid-cols-2 gap-8">
+ <div className="w-full max-w-4xl grid md:grid-cols-2 gap-8 ml-45">
     <div className="bg-white rounded-2xl shadow-2xl p-8">
 
-     <form onClick={handleSubmit}>
+     <form onSubmit={handleSubmit}>
 
         <h1 className="font-semibold text-2xl text-center mb-3">Product Details</h1>
 
@@ -95,7 +96,7 @@ const ProductData = () => {
 
               <div className="flex justify-between border-b pb-2">
                 <span className="font-semibold">Price</span>
-                <span>{submittedData.price}</span>
+                <span>{submittedData.productprice}</span>
               </div>
 
               <div className="flex justify-between border-b pb-2">

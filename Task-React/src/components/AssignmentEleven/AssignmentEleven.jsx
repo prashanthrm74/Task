@@ -1,17 +1,15 @@
 import { useNavigate } from "react-router-dom"
 
-const AssignmentTen = () => {
+const AssignmentEleven = () => {
 
     const navigate=useNavigate();
      
 
     const handleTask=()=>{
-        navigate("/studentdata")
+        navigate("/registration")
     }
 
-     const handleTask1=()=>{
-        navigate("/productdata")
-    }
+   
 
 
     return (
@@ -21,10 +19,7 @@ const AssignmentTen = () => {
         onClick={handleTask}
         >Task 1
         </button>
-         <button className="bg-blue-600 text-white px-6 py-2 rounded-xl m-5"
-        onClick={handleTask1}
-        >Task 2
-        </button>
+       
 
     </>
    
@@ -32,4 +27,4 @@ const AssignmentTen = () => {
   )
 }
 
-export default AssignmentTen
+export default AssignmentEleven

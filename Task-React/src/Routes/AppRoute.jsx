@@ -22,6 +22,7 @@ import UserForm from '../components/AssignmentSeven/Tasks/UserForm'
 import RegisterDetails from '../components/AssignmentNine/RegisterDetails'
 import Studentdata from '../components/AssignmentTen/Tasks/Studentdata'
 import ProductData from '../components/AssignmentTen/Tasks/ProductData'
+import RegisterForm from '../components/AssignmentEleven/RegisterForm'
 
 
 const AppRoute = () => {
@@ -38,7 +39,7 @@ const AppRoute = () => {
     <Route path='/employeedetails' element={<EmployeeDetails/>}/>
     <Route path='/productdetails' element={<ProductCard/>}/>
     <Route path='/moviedetails' element={<MovieDetails/>}/>
-      <Route path='/companydetails' element={<CompanyInfo/>}/>
+    <Route path='/companydetails' element={<CompanyInfo/>}/>
 
     <Route path='/assignment2-task1' element={<Assignment2Task1/>}/>
     <Route path='/splclass1-task1' element={<SPLClassTask1/>}/>
@@ -53,7 +54,7 @@ const AppRoute = () => {
       <Route path='/userdata' element={<RegisterDetails/>}/>
        <Route path='/studentdata' element={<Studentdata/>}/>
       <Route path='/productdata' element={<ProductData/>}/>
-
+      <Route path='/registration' element={<RegisterForm/>}/>
   
 
     </Routes>
