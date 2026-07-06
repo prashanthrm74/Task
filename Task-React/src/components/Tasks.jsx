@@ -9,6 +9,7 @@ import AssignmentSeven from "./AssignmentSeven/AssignmentSeven";
 import AssignmentSix from "./AssignmentSix/AssignmentSix";
 import AssignmentTen from "./AssignmentTen/AssignmentTen";
 import AssignmentThree from "./AssignmentThree/AssignmentThree";
+import AssignmentTwelve from "./AssignmentTwelve/AssignmentTwelve";
 
 import AssignmentTwo from "./AssignmentTwo/AssignmentTwo";
 import SPLClassTest1 from "./SPL_Class_Test1/Task1/SPLClassTest1";
@@ -55,6 +56,9 @@ const Tasks = () => {
         </AssignmentCard>
          <AssignmentCard title="Assignment 11">
           <AssignmentEleven/>
+        </AssignmentCard>
+         <AssignmentCard title="Assignment 12">
+          <AssignmentTwelve/>
         </AssignmentCard>
       </div>
     </>

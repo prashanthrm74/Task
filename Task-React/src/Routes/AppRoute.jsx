@@ -23,6 +23,8 @@ import RegisterDetails from '../components/AssignmentNine/RegisterDetails'
 import Studentdata from '../components/AssignmentTen/Tasks/Studentdata'
 import ProductData from '../components/AssignmentTen/Tasks/ProductData'
 import RegisterForm from '../components/AssignmentEleven/RegisterForm'
+import PageLoadMessage from '../components/AssignmentTwelve/Tasks/PageLoadMessage'
+import DigitalClock from '../components/AssignmentTwelve/Tasks/DigitalClock'
 
 
 const AppRoute = () => {
@@ -55,6 +57,8 @@ const AppRoute = () => {
        <Route path='/studentdata' element={<Studentdata/>}/>
       <Route path='/productdata' element={<ProductData/>}/>
       <Route path='/registration' element={<RegisterForm/>}/>
+      <Route path='/pageload' element={<PageLoadMessage/>}/>
+      <Route path='/digitalclock' element={<DigitalClock/>}/>
   
 
     </Routes>
