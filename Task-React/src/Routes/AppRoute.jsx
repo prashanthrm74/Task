@@ -25,6 +25,7 @@ import ProductData from '../components/AssignmentTen/Tasks/ProductData'
 import RegisterForm from '../components/AssignmentEleven/RegisterForm'
 import PageLoadMessage from '../components/AssignmentTwelve/Tasks/PageLoadMessage'
 import DigitalClock from '../components/AssignmentTwelve/Tasks/DigitalClock'
+import StudentSearch from '../components/AssignmentThirteen/Tasks/StudentSearch'
 
 
 const AppRoute = () => {
@@ -59,6 +60,7 @@ const AppRoute = () => {
       <Route path='/registration' element={<RegisterForm/>}/>
       <Route path='/pageload' element={<PageLoadMessage/>}/>
       <Route path='/digitalclock' element={<DigitalClock/>}/>
+       <Route path='/studentsearch' element={<StudentSearch/>}/>
   
 
     </Routes>
