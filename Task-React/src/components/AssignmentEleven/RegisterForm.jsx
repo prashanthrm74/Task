@@ -49,6 +49,8 @@ const handleChange=(e)=>{
 
     setSaveData(data)
     console.log(data);
+
+    alert("Successfully added")
     
 
     setRegisterData({username:"",useremail:"",userpassword:""})
