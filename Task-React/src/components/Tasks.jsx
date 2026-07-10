@@ -1,12 +1,14 @@
 import AssignmentCard from "./AssignmentCard";
 import AssignmentEight from "./AssignmentEight/AssignmentEight";
 import AssignmentEleven from "./AssignmentEleven/AssignmentEleven";
+import AssignmentFifteen from "./AssignmentFifteen/AssignmentFifteen";
 import AssignmentFive from "./AssignmentFive/AssignmentFive";
 import AssignmentFour from "./AssignmentFour/AssignmentFour";
 import AssignmentNine from "./AssignmentNine/AssignmenNine";
 import Assignmentone from "./AssignmentOne/Assignmentone";
 import AssignmentSeven from "./AssignmentSeven/AssignmentSeven";
 import AssignmentSix from "./AssignmentSix/AssignmentSix";
+import AssignmentSixteen from "./AssignmentSixteen/AssignmenSixteen";
 import AssignmentTen from "./AssignmentTen/AssignmentTen";
 import AssignmentThirteen from "./AssignmentThirteen/AssignementThirteen";
 import AssignmentThree from "./AssignmentThree/AssignmentThree";
@@ -63,6 +65,12 @@ const Tasks = () => {
         </AssignmentCard>
            <AssignmentCard title="Assignment 13">
           <AssignmentThirteen/>
+        </AssignmentCard>
+        <AssignmentCard title="Assignment 15">
+          <AssignmentFifteen/>
+        </AssignmentCard>
+         <AssignmentCard title="Assignment 16">
+          <AssignmentSixteen/>
         </AssignmentCard>
       </div>
     </>

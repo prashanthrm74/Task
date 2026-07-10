@@ -26,6 +26,8 @@ import RegisterForm from '../components/AssignmentEleven/RegisterForm'
 import PageLoadMessage from '../components/AssignmentTwelve/Tasks/PageLoadMessage'
 import DigitalClock from '../components/AssignmentTwelve/Tasks/DigitalClock'
 import StudentSearch from '../components/AssignmentThirteen/Tasks/StudentSearch'
+import CategoryData from '../components/AssignmentFifteen/CategoryData'
+import TodoList from '../components/AssignmentSixteen/TodoList'
 
 
 const AppRoute = () => {
@@ -60,8 +62,9 @@ const AppRoute = () => {
       <Route path='/registration' element={<RegisterForm/>}/>
       <Route path='/pageload' element={<PageLoadMessage/>}/>
       <Route path='/digitalclock' element={<DigitalClock/>}/>
-       <Route path='/studentsearch' element={<StudentSearch/>}/>
-  
+      <Route path='/studentsearch' element={<StudentSearch/>}/>
+      <Route path='/catsearch' element={<CategoryData/>}/>
+      <Route path='/todolist' element={<TodoList/>}/>
 
     </Routes>
     </div>
