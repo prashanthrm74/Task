@@ -28,6 +28,7 @@ import DigitalClock from '../components/AssignmentTwelve/Tasks/DigitalClock'
 import StudentSearch from '../components/AssignmentThirteen/Tasks/StudentSearch'
 import CategoryData from '../components/AssignmentFifteen/CategoryData'
 import TodoList from '../components/AssignmentSixteen/TodoList'
+import UseRefInput from '../components/AssignmentSeventeen.jsx/UseRefInput'
 
 
 const AppRoute = () => {
@@ -65,6 +66,7 @@ const AppRoute = () => {
       <Route path='/studentsearch' element={<StudentSearch/>}/>
       <Route path='/catsearch' element={<CategoryData/>}/>
       <Route path='/todolist' element={<TodoList/>}/>
+      <Route path='/useref' element={<UseRefInput/>}/>
 
     </Routes>
     </div>
