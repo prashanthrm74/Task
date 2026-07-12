@@ -5,7 +5,6 @@ import Tasks from '../components/Tasks'
 
 import SPLClassTask1 from '../components/SPL_Class_Test1/SPLClassTask1'
 import Assignment2Task1 from '../components/AssignmentTwo/Task1/Assignment2Task1'
-
 import EmployeeDetails from '../components/AssignmentOne/Tasks/Task1/EmployeeDetails'
 import MovieDetails from '../components/AssignmentOne/Tasks/Task1/MovieDetails'
 import ProductCard from '../components/AssignmentOne/Tasks/Task1/ProductCard'
@@ -29,6 +28,9 @@ import StudentSearch from '../components/AssignmentThirteen/Tasks/StudentSearch'
 import CategoryData from '../components/AssignmentFifteen/CategoryData'
 import TodoList from '../components/AssignmentSixteen/TodoList'
 import UseRefInput from '../components/AssignmentSeventeen.jsx/UseRefInput'
+import ContextData from '../components/AssignmentEighteen/ContextData'
+import UserProvider from '../components/AssignmentEighteen/provider/UserProvider'
+
 
 
 const AppRoute = () => {
@@ -67,6 +69,10 @@ const AppRoute = () => {
       <Route path='/catsearch' element={<CategoryData/>}/>
       <Route path='/todolist' element={<TodoList/>}/>
       <Route path='/useref' element={<UseRefInput/>}/>
+      <Route path="/context" element={<UserProvider><ContextData/></UserProvider>
+  }
+/>
+
 
     </Routes>
     </div>
