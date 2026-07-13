@@ -30,6 +30,8 @@ import TodoList from '../components/AssignmentSixteen/TodoList'
 import UseRefInput from '../components/AssignmentSeventeen.jsx/UseRefInput'
 import ContextData from '../components/AssignmentEighteen/ContextData'
 import UserProvider from '../components/AssignmentEighteen/provider/UserProvider'
+import RouteApp from '../components/AssignmentNineteen/routes/RouteApp'
+import { AuthProvider } from '../components/AssignmentNineteen/context/AuthContext'
 
 
 
@@ -69,9 +71,8 @@ const AppRoute = () => {
       <Route path='/catsearch' element={<CategoryData/>}/>
       <Route path='/todolist' element={<TodoList/>}/>
       <Route path='/useref' element={<UseRefInput/>}/>
-      <Route path="/context" element={<UserProvider><ContextData/></UserProvider>
-  }
-/>
+      <Route path="/context" element={<UserProvider><ContextData/></UserProvider>}/>
+      <Route path="/routeapp/*" element={<AuthProvider><RouteApp/></AuthProvider>}/>
 
 
     </Routes>
