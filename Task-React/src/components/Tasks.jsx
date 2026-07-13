@@ -1,7 +1,7 @@
 import AssignmentCard from "./AssignmentCard";
 import AssignmentEight from "./AssignmentEight/AssignmentEight";
 import AssignmentEighteen from "./AssignmentEighteen/AssignmentEighteen";
-import UserProvider from "./AssignmentEighteen/provider/UserProvider";
+
 import AssignmentEleven from "./AssignmentEleven/AssignmentEleven";
 import AssignmentFifteen from "./AssignmentFifteen/AssignmentFifteen";
 import AssignmentFive from "./AssignmentFive/AssignmentFive";
@@ -24,10 +24,17 @@ import SPLClassTest1 from "./SPL_Class_Test1/Task1/SPLClassTest1";
 const Tasks = () => {
   return (
     <>
-      <div className="bg-gray-300 m-5 rounded-xl">
-        <h1 className="text-black text-center font-bold text-xl underline">
-          Assignments
-        </h1>
+      <div className="max-w-7xl mx-auto py-5">
+    <div className="text-center mb-12">
+  <h1 className="text-5xl font-bold text-slate-800">
+    React Assignments
+  </h1>
+
+  <p className="text-gray-500 mt-3">
+    Practice projects built using React & Tailwind CSS
+  </p>
+</div>
+
         <AssignmentCard title="Assignment 1">
           <Assignmentone />
         </AssignmentCard>
@@ -79,7 +86,7 @@ const Tasks = () => {
         <AssignmentCard title="Assignment 17">
           <AssignmentSeventeen/>
         </AssignmentCard>
-        uu
+        
         <AssignmentCard title="Assignment 18">
           <AssignmentEighteen/>
           </AssignmentCard>

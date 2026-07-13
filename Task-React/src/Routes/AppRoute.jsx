@@ -38,9 +38,10 @@ import { AuthProvider } from '../components/AssignmentNineteen/context/AuthConte
 const AppRoute = () => {
   return (
     <>
-    <div className="bg-teal-500 min-h-screen">
+    <div className="min-h-screen bg-linear-to-br from-slate-100 via-blue-50 to-indigo-100">
 
     <Navbar/>
+    <div className="max-w-7xl mx-auto px-4 py-8">
     
     <Routes>
     <Route path='/' element={<Home/>} />
@@ -76,6 +77,7 @@ const AppRoute = () => {
 
 
     </Routes>
+    </div>
     </div>
 
     </>
