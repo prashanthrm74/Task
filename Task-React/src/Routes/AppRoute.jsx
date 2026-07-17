@@ -32,6 +32,7 @@ import ContextData from '../components/AssignmentEighteen/ContextData'
 import UserProvider from '../components/AssignmentEighteen/provider/UserProvider'
 import RouteApp from '../components/AssignmentNineteen/routes/RouteApp'
 import { AuthProvider } from '../components/AssignmentNineteen/context/AuthContext'
+import ProductSearch from '../components/AssignmentTwentyTwo/usememo/ProductSearch'
 
 
 
@@ -74,6 +75,7 @@ const AppRoute = () => {
       <Route path='/useref' element={<UseRefInput/>}/>
       <Route path="/context" element={<UserProvider><ContextData/></UserProvider>}/>
       <Route path="/routeapp/*" element={<AuthProvider><RouteApp/></AuthProvider>}/>
+      <Route path='/productsearch' element={<ProductSearch/>}/>
 
 
     </Routes>

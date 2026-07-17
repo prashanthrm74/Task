@@ -1,24 +1,23 @@
 import { useNavigate } from "react-router-dom"
 
-const AssignmentSeventeen = () => {
+const AssignmentTwenty = () => {
 
     const navigate=useNavigate();
      
 
     const handleTask=()=>{
-        navigate("/useref")
+        navigate("/assignment2-task1")
     }
 
-   
 
-    return (
+
+  return (
     <>
 
        <button className="px-5 py-1 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition duration-300 shadow-md m-2"
         onClick={handleTask}
-        >Task 1
+        >Task
         </button>
-    
 
     </>
    
@@ -26,4 +25,4 @@ const AssignmentSeventeen = () => {
   )
 }
 
-export default AssignmentSeventeen
+export default AssignmentTwenty
