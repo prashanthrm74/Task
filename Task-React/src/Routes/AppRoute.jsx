@@ -33,6 +33,7 @@ import UserProvider from '../components/AssignmentEighteen/provider/UserProvider
 import RouteApp from '../components/AssignmentNineteen/routes/RouteApp'
 import { AuthProvider } from '../components/AssignmentNineteen/context/AuthContext'
 import ProductSearch from '../components/AssignmentTwentyTwo/usememo/ProductSearch'
+import StudentDashboard from '../components/AssignmentTwentyTwo/usememo/StudentDashboard '
 
 
 
@@ -76,6 +77,7 @@ const AppRoute = () => {
       <Route path="/context" element={<UserProvider><ContextData/></UserProvider>}/>
       <Route path="/routeapp/*" element={<AuthProvider><RouteApp/></AuthProvider>}/>
       <Route path='/productsearch' element={<ProductSearch/>}/>
+        <Route path='/studentdashboard' element={<StudentDashboard/>}/>
 
 
     </Routes>
